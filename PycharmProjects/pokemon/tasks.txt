@@ -1,0 +1,148 @@
+   """
+    Task 6: Display a pokemon from the list, searching by name.
+
+    The p_list is a list of pokemon.
+    Prompt the user to enter name of the pokemon they are searching for.
+    The function should display all the details related only to that single pokemon, if it's on the p_list.
+    If pokemon of such name does not exist on the p_list, then display appropriate message.
+
+    :param p_list: A list of pokemon
+    :return: does not return anything
+    """
+
+      """
+    Task 7: Display pokemon from the list, searching by type.
+
+    The p_list is a list of pokemon.
+    Prompt the user to enter type of the pokemon they are searching for.
+    The function should display all the details related only to pokemon of that type,
+    if it's on the p_list.
+    If no such pokemon of that type exists on the p_list, then display appropriate message.
+
+    :param p_list: A list of pokemon
+    :return: does not return anything
+    """
+
+       """
+    Task 8: Search for pokemon in the database, and return it if it's found.
+
+    Access pokemon_database.csv using appropriate module.
+    Search through this database, looking for a pokemon by it's name.
+    If no such pokemon exists, then display appropriate message and return None.
+
+    :param: None
+    :return: A list representing a pokemon or None
+    """
+
+       """
+    Task 9: Search for a random pokemon in the database, and return it.
+
+    Access pokemon_database.csv using appropriate module.
+    Pick out a random pokemon and return it.
+
+    :param:  None
+    :return: A list representing a pokemon
+    """
+
+ """
+    Task 10: Print all pokemon from pokedex.
+
+    Print key information about all the pokemon in the pokedex. Include their
+    name, type, total, hp and generation.
+
+    :param p_list: None
+    :return: None
+    """
+     """
+    Task 11: Save content of the pokedex to a suitable file format
+    Print "Saving complete" at the end.
+
+    :param p_list: pokedex: a list of pokemon
+    :return: None
+    """
+
+     """
+    Task 11.5: Load up pokemon from a CSV file into a list structure
+    :param path: A relative file path to CSV file in string format
+    :return: A list of pokemon
+    """
+
+    '''
+       Task 16: Using an appropriate function in the module utils, display
+        a menu of options for the different operations that can be performed on the data.
+        Assign the selected option to a suitable local variable
+   '''
+
+      '''
+        Task 17: Check if the user selected the option to check Pokemon. If so,
+        then do the following:
+        - Use the appropriate function in the module utils to display a submenu
+        of suitable options.
+        '''
+
+
+        '''
+            Task 18: If user chooses to show pokemon by name, then display all
+            information about this particular pokemon. If user chooses to show pokemon
+            by type, display all pokemon of that type (full details)
+
+        '''
+        '''
+        Task 19: Check if user selected option to add pokemon. If so, then do the following:
+        - Use the appropriate function in the module utils to display a submenu of suitable options.
+        '''
+
+        '''
+            Task 20: If user chooses to add specific pokemon, then search pokemon_database
+            and add that pokemon to pokedex (if it exists). If user chooses to add pokemon
+            at random, use appropriate function to add a random pokemon to their database
+        '''
+        '''
+        Task 21: Check if user selected option to show all pokemon. If so, then print out the
+        entire pokedex.
+        '''
+
+        '''
+        Task 22: Check if user selected option to visualise their pokemon. If so, then do
+        the following:
+        - Use the appropriate function in the module utils to display a submenu of suitable
+        options.
+        '''
+
+        '''
+            Task 23: If user chooses to plot a pie chart, call appropriate function from
+            graphs module. Similarly, if user chooses to plot a bar chart, call an
+            appropriate function from graphs module.
+        '''
+        '''
+        Task 24: Check if user selected option to save pokedex. If so, then save it to
+        a suitable file.
+        '''
+
+        '''
+        Task 25: Check if user selected option to exit. If so, finish the loop.
+        '''
+        '''
+        Task 26: If the user selected an invalid option then display an error message
+        '''
+
+ PLOTS
+   """
+    Task 27: Create a Pie Chart showing pokemon from pokedex sorted by their generation
+
+    Access the pokedex, sort out pokemon by generation and plot this data in a
+    pie chart format. Add labels to clearly identify each generation.
+
+    :param pokedex: list of pokemon
+    :return: None
+    """
+
+      """
+    Task 28: Create a Bar Chart showing pokemon from pokedex sorted by their type
+
+    Access the pokedex, sort out pokemon by type and plot this data in a
+    bar chart format. Add axis labels and main title.
+
+    :param pokedex: list of pokemon
+    :return: None
+    """
